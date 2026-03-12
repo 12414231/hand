@@ -1,0 +1,19 @@
+{
+    "open_palm": "move_mouse",
+    "fist": "left_click",
+    "thumb_up": "volume_up",
+    "thumb_down": "volume_down",
+    "pinch": "drag",
+    "two_fingers": "right_click",
+    "three_fingers": "double_click",
+    "four_fingers": "scroll_mode",
+    "split_fingers": "stop",
+    "call_gesture": "screenshot",
+
+    "circle": "screenshot",
+    "line_left": "back",
+    "line_right": "forward",
+    "up_line": "volume_up",
+    "down_line": "volume_down",
+    "z_shape": "switch_window"
+}

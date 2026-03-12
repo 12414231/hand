@@ -1,0 +1,51 @@
+name: ai_gesture
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+
+  # 基础科学计算库
+  - numpy=1.24.3
+  - scipy=1.10.1
+  - pandas=1.5.3
+  - matplotlib=3.7.1
+
+  # 机器学习
+  - scikit-learn=1.2.2
+  - joblib
+
+  # TensorFlow GPU (Windows稳定版)
+  - tensorflow=2.10
+  - protobuf=3.20.3
+
+  # OpenCV
+  - opencv=4.8
+
+  # PyTorch CUDA 11.8
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+
+  # 常用工具
+  - tqdm
+  - pillow
+  - pyyaml
+  - pip
+
+  - pip:
+      # MediaPipe（只在 pip 有）
+      - mediapipe==0.10.9
+
+      # GUI控制
+      - pyautogui
+      - pynput
+
+      # 数据可视化
+      - seaborn
+
+      # 控制台美化
+      - rich
