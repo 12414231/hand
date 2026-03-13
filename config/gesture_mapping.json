@@ -1,6 +1,6 @@
 {
-    "open_palm": "move_mouse",
-    "fist": "left_click",
+    "open_palm": "mouse_move",
+    "fist": "click",
     "thumb_up": "volume_up",
     "thumb_down": "volume_down",
     "pinch": "drag",
@@ -9,11 +9,10 @@
     "four_fingers": "scroll_mode",
     "split_fingers": "stop",
     "call_gesture": "screenshot",
-
     "circle": "screenshot",
-    "line_left": "back",
-    "line_right": "forward",
-    "up_line": "volume_up",
-    "down_line": "volume_down",
-    "z_shape": "switch_window"
+    "line_left": "volume_down",
+    "line_right": "volume_up",
+    "up_line": "scroll_up",
+    "down_line": "scroll_down",
+    "Z": "switch_window"
 }
